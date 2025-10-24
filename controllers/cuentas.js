@@ -202,7 +202,6 @@ const obtenerCuentasOne = async (req, res) => {
 const actualizarCuenta = async (req, res) => {
     const {id} = req.params;
     const {nombre, correo, rol, rfc, id_Unidad_Academica} = req.body;
-    console.log('Pene2');
 
     const con = await db.getConnection();
 
